@@ -15,8 +15,8 @@ if ( $deployment == 'blue') {
 
 // Draw a filled rectangle
 // imagefilledrectangle($im, 0, 0, 199, 199, $color);
-// draw an empty circle
-ImageEllipse($im, 180, 100, 100, 100, $color);
+// Draw a rectangle
+imageRectangle($im, 0, 0, 199, 199, $color);
 
 // Save the image
 header('Content-Type: image/png');
