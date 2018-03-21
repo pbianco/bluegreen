@@ -14,12 +14,12 @@ if ( $deployment == 'blue') {
 }
 
 // sets background to white
-ImageFillToBorder($im, 0, 0, $white, $white);
+//ImageFillToBorder($im, 0, 0, $white, $white);
 
 // Draw a filled rectangle
-// imagefilledrectangle($im, 0, 0, 199, 199, $color);
+imagefilledrectangle($im, 0, 0, 199, 199, $color);
 // Draw a rectangle
-imageRectangle($im, 0, 0, 199, 199, $color);
+//imageRectangle($im, 0, 0, 199, 199, $color);
 
 // Save the image
 header('Content-Type: image/png');
